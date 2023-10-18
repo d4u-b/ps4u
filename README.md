@@ -1,6 +1,6 @@
 # ps4u
 
-* setup linux environment (only run one time)
+* setup Linux environment
 
   `%> cd ~`
 
@@ -8,7 +8,7 @@
 
   `%> source ps4u/.init.sh`
   
-* After setting up linux environment, we can setup workarea now
+* After setting up Linux environment, we can set-up workarea now
 
   `%> wa0`
   
