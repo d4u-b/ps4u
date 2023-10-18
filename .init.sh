@@ -10,6 +10,7 @@ else
 	echo "alias wa3='source ~/.wa.sh wa3'" >> ~/.bashrc
 	echo "alias wa4='source ~/.wa.sh wa4'" >> ~/.bashrc
         cp .wa.sh ~/.wa.sh -f
+        cp .emacs ~/ -f
         mkdir ~/temp -p
         mkdir ~/work/wa0 -p
         mkdir ~/work/wa1 -p
