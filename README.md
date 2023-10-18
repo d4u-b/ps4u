@@ -1,17 +1,17 @@
 # ps4u
 * setup linux environment (only run one time)
 
-  `%> cd ~
+  `%> cd ~`
 
-  `%> git clone <repo_path>
+  `%> git clone <repo_path>`
 
-  `%> source ps4u/.init.sh
+  `%> source ps4u/.init.sh`
   
 * After setting up linux environment, we can setup workarea now
 
-  `%> wa0
+  `%> wa0`
   
-  `%> wa
+  `%> wa`
   
   
 
