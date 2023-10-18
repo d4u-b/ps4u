@@ -1,4 +1,5 @@
 # ps4u
+
 * setup linux environment (only run one time)
 
   `%> cd ~`
