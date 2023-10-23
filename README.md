@@ -6,7 +6,9 @@
 
   `%> git clone <repo_path>`
 
-  `%> source ps4u/.init.sh`
+  `%> cd ps4u`
+  
+  `%> source .init.sh`
   
 * After setting up Linux environment, we can set-up workarea now
 
