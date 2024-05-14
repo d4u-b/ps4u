@@ -15,7 +15,7 @@
 ;;(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
 ;;Atuo completion
-(ac-config-default)
+;;(ac-config-default)
 (global-auto-complete-mode t)
 
 (custom-set-variables
