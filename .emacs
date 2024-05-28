@@ -16,7 +16,7 @@
 
 ;;Atuo completion
 ;;(ac-config-default)
-(global-auto-complete-mode t)
+;;(global-auto-complete-mode t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -46,7 +46,6 @@
  '(font-lock-type-face ((t (:foreground "deep sky blue"))))
  '(verilog-font-lock-translate-off-face ((t (:background "gray10" :slant italic)))))
 
- (load-theme 'bao t)
 
 ;;(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;;maximize window
 
