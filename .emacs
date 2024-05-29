@@ -46,6 +46,9 @@
 (setq-default tab-width 2)
 
 (setq auto-save-default nil)
+(setq create-lockfiles nil)
+(setq make-backup-files nil)
+(save-place-mode 1)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
