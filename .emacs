@@ -23,22 +23,36 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
+ '(custom-enabled-themes '(deeper-blue))
  '(highlight-indent-guides-method 'character)
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
+ '(ispell-dictionary nil)
  '(package-selected-packages
    '(helm afternoon-theme highlight-indentation highlight-indent-guides verilog-mode))
  '(safe-local-variable-values '((verilog-auto-sense-define-constant . t)))
  '(show-paren-mode t)
  '(verilog-auto-inst-sort nil)
- '(verilog-auto-save-policy nil))
+ '(verilog-auto-save-policy nil)
+ '(verilog-indent-level 2)
+ '(verilog-indent-level-behavioral 2)
+ '(verilog-indent-level-declaration 2)
+ '(verilog-indent-level-module 2))
+
+(setq-default tab-width 2)
+
+(setq auto-save-default nil)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "outline" :slant normal :height 120 :width normal :weight normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :height 120 :width normal :weight normal))))
  '(font-lock-comment-face ((t (:foreground "green"))))
  '(font-lock-function-name-face ((t (:foreground "red"))))
  '(font-lock-keyword-face ((t (:foreground "tomato"))))
