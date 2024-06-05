@@ -133,6 +133,8 @@ export  PATH
 export LMG=/usr/synopsys/scl/2021.03/linux64
 PATH=$PATH:$LMG/bin
 
+export UVM_HOME=/usr/uvm
+
 alias sim='python3 /home/cabao193/work/wa0/uvm_candy_lover/bin/YASA/yasaTop.py'
 export TCP_NODELAY=YES
 
