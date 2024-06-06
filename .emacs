@@ -83,6 +83,11 @@
 (set-default 'truncate-lines t)
 
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(add-hook 'before-save-hook 'my-prog-nuke-trailing-whitespace)
+
+(defun my-prog-nuke-trailing-whitespace ()
+  (when (derived-mode-p 'prog-mode)
+    (delete-trailing-whitespace)))
 
 (defun duplicate-line (arg)
   "Duplicate current line, leaving point in lower line."
