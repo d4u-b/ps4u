@@ -119,24 +119,29 @@ fi
 
 bind '"\C-w":backward-kill-word'
 
-#export VCS_HOME=/usr/synopsys/vcs/R-2020.12-SP1
-export VCS_HOME=/media/cabao193/Storage/software/SNPS_TOOLS/synopsys/VCS_2014
-PATH=$PATH:$VCS_HOME/bin
-export VCS_ARCH_OVERRIDE=linux
-export LM_LICENSE_FILE=27000@localhost
-
+#VCS
 alias lmg_vcs='lmgrd -c /usr/synopsys/scl/2021.03/admin/license/Synopsys.dat'
 alias lic_sta='lmutil lmstat -a -c /usr/synopsys/scl/2021.03/admin/license/Synopsys.dat'
 alias lic_reread='lmreread -c /usr/synopsys/scl/2021.03/admin/license/Synopsys.dat'
-
-export  PATH
-export LMG=/usr/synopsys/scl/2021.03/linux64
-PATH=$PATH:$LMG/bin
-
-export UVM_HOME=/usr/uvm
-
 alias sim='python3 /home/cabao193/work/wa0/uvm_candy_lover/bin/YASA/yasaTop.py'
-export TCP_NODELAY=YES
+
+#export VCS_HOME=/media/cabao193/Storage/software/SNPS_TOOLS/synopsys/VCS_2014
+#PATH=$PATH:$VCS_HOME/bin
+#export VCS_ARCH_OVERRIDE=linux
+#export LM_LICENSE_FILE=27000@localhost
+#export  PATH
+#export LMG=/usr/synopsys/scl/2021.03/linux64
+#PATH=$PATH:$LMG/bin
+#export UVM_HOME=/usr/uvm
+#export TCP_NODELAY=YES
+
+#Questasim
+export QUESTA_HOME=/home/baoca/questasim
+export PATH=$PATH:$QUESTA_HOME/linux_x86_64
+export PATH=$PATH:$QUESTA_HOME/RUVM_2021.2
+export PATH=$PATH:$QUESTA_HOME/linux_x86_64/mgls/bin
+export LM_LICENSE_FILE=$QUESTA_HOME/lic/license.dat
+
 
 alias ..='cd ..'
 alias em='emacs -mm'
