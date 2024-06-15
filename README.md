@@ -17,5 +17,6 @@
   `%> wa`
   
   
-
+git config --global user.email "cabao193@hotmail.com"
+git config --global user.name "d4u-b"
 
