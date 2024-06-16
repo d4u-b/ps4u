@@ -37,4 +37,4 @@
 - ```sudo do-release-upgrade```
 - It takes 30min to upgrade the OS, hit YES sometimes
 - Restart and Done
-
+ref: https://www.cyberciti.biz/faq/upgrade-ubuntu-20-04-lts-to-22-04-lts/
